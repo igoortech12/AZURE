@@ -324,3 +324,6 @@ Serviços do Azure
 
         Azure DevTest Labs
             Crie rapidamente ambientes Windows e Linux sob demanda para testar ou demonstrar aplicativos diretamente dos pipelines de implantação.
+
+Introdução a contas do Azure
+ 
