@@ -1,6 +1,5 @@
-Princípios básicos do Microsoft Azure: descrever os principais conceitos do Azure
-
 > PARTE 1 - DESCREVER OS PRINCIPAIS CONCEITOS DO AZURE
+    Princípios básicos do Microsoft Azure: descrever os principais conceitos do Azure
    
 MÓDULO 1 - INTRODUÇÃO AOS CONCEITOS BÁSICOS DO AZURE
     Este módulo apresenta os conceitos básicos da computação em nuvem e do Azure e como começar a usar as assinaturas e as contas do Azure.
@@ -40,7 +39,7 @@ Por que a computação em nuvem normalmente é mais econômica?
         Escale as operações de acordo com as necessidades de negócios.
     
     Em outras palavras, a computação em nuvem é uma forma de alugar capacidade computacional e armazenamento do datacenter de terceiros. Você pode tratar os recursos de nuvem como faria com os recursos 
-em seu próprio datacenter. E, depois de usá-los, devolva-os. Você será cobrado apenas pelo que usar.
+    em seu próprio datacenter. E, depois de usá-los, devolva-os. Você será cobrado apenas pelo que usar.
 
 Por que devo migrar para a nuvem?
     A nuvem ajuda você a avançar com mais rapidez e a inovar de maneiras que antes eram quase impossíveis.
@@ -50,7 +49,7 @@ Por que devo migrar para a nuvem?
 
 O que é o Azure?
     O Azure é um conjunto de serviços de nuvem, em constante expansão, que ajuda sua organização a superar os desafios empresariais atuais e se preparar para os desafios futuros. O Azure oferece a liberdade 
-de criar, gerenciar e implantar aplicativos em uma enorme rede global usando suas ferramentas e estruturas favoritas.
+    de criar, gerenciar e implantar aplicativos em uma enorme rede global usando suas ferramentas e estruturas favoritas.
     Esteja pronto para o futuro: a inovação contínua da Microsoft dá suporte ao desenvolvimento dos negócios no presente e às visões de produto para o futuro.
     Crie seus próprios termos: você tem opções. Com um compromisso com o software livre e suporte para todos os idiomas e estruturas, você pode criar como quiser e implantar onde preferir.
     Opere de maneira híbrida e sem interrupções: local, na nuvem e na borda – nós encontraremos você onde quer que esteja. Integre e gerencie seus ambientes com ferramentas e serviços projetados para uma solução de nuvem híbrida.
@@ -325,5 +324,72 @@ Serviços do Azure
         Azure DevTest Labs
             Crie rapidamente ambientes Windows e Linux sob demanda para testar ou demonstrar aplicativos diretamente dos pipelines de implantação.
 
-Introdução a contas do Azure
- 
+MÓDULO 2 - DISCUTIR CONCEITOS FUNDAMENTAIS DO AZURE
+    Neste módulo, você aprenderá sobre as vantagens de usar os serviços de computação em nuvem e aprenderá a diferenciar entre as categorias e os tipos de computação em nuvem.
+
+O que são nuvens públicas, privadas e híbridas?
+    Nuvem pública
+        Os serviços são oferecidos pela Internet pública e ficam disponíveis para qualquer pessoa que deseje comprá-los. Os recursos de nuvem, como servidores e armazenamento, são de propriedade e operados por um provedor de serviços de nuvem de terceiros e entregues pela Internet.
+
+    Nuvem privada
+        Uma nuvem privada consiste em recursos de computação usados exclusivamente por usuários de uma empresa ou organização. Uma nuvem privada pode estar localizada fisicamente no datacenter (local) da organização ou ser hospedada por um provedor de serviços de terceiros.
+
+    Nuvem híbrida
+        Uma nuvem híbrida é um ambiente de computação que combina uma nuvem pública e uma nuvem privada, permitindo que dados e aplicativos sejam compartilhados entre elas.
+
+    Nuvem pública
+        Nenhuma despesa de capital para escalar verticalmente.
+        Os aplicativos podem ser provisionados e desprovisionados rapidamente.
+        As organizações pagam apenas pelo que utilizam.
+    Nuvem privada
+        O hardware deve ser comprado para inicialização e manutenção.
+        As organizações têm controle total sobre os recursos e a segurança.
+        As organizações são responsáveis pela manutenção e pelas atualizações de hardware.
+    Nuvem híbrida
+        Fornece a maior flexibilidade.
+        As organizações determinam onde executar seus aplicativos.
+        As organizações controlam a segurança, a conformidade ou os requisitos legais.
+
+Quais são algumas vantagens da computação em nuvem?
+    Alta disponibilidade: 
+    dependendo do SLA (Contrato de Nível de Serviço) que você escolher, seus aplicativos baseados em nuvem poderão oferecer uma experiência de usuário contínua, sem tempo de inatividade aparente, mesmo quando as coisas derem errado.
+
+    Escalabilidade: 
+    os aplicativos na nuvem podem ser dimensionados verticalmente e horizontalmente:
+        Dimensione verticalmente para aumentar a capacidade de computação adicionando RAM ou CPUs a uma máquina virtual.
+        Dimensionar horizontalmente aumenta a capacidade de computação adicionando instâncias de recursos, por exemplo, adicionando VMs à configuração.
+    
+    Elasticidade: 
+    você pode configurar aplicativos baseados em nuvem para aproveitar o dimensionamento automático, de modo que os aplicativos sempre tenham os recursos de que precisam.
+
+    Agilidade: 
+    implante e configure rapidamente os recursos baseados em nuvem à medida que os requisitos de aplicativo mudarem.
+
+    Distribuição geográfica: 
+    você pode implantar aplicativos e dados em data centers regionais em todo o mundo, garantindo assim que os clientes sempre tenham o melhor desempenho em sua região.
+
+    Recuperação de desastre: 
+    ao aproveitar os serviços de backup baseados em nuvem, a replicação de dados e a distribuição geográfica, você pode implantar os aplicativos com a confiança de saber que seus dados estarão seguros em caso de desastre.
+
+Despesas de capital versus despesas operacionais
+    CapEx (despesas de capital) 
+        são os gastos antecipados de dinheiro com a infraestrutura física e a posterior dedução dessas despesas antecipadas ao longo do tempo. O custo inicial de CapEx tem um valor que é reduzido ao longo do tempo.
+    OpEx (despesas operacionais) 
+        são gastos atuais com serviços ou produtos, que são cobrados no ato. Você pode deduzir essas despesas no mesmo ano em que gasta. Não há nenhum custo antecipado, pois você paga por um serviço ou produto conforme o usa.
+
+O que são modelos de serviço de nuvem?
+    Se você usa computação em nuvem há algum tempo, provavelmente já viu os acrônimos PaaS, IaaS e SaaS em referência aos diferentes modelos de serviço de nuvem. Esses modelos definem os diferentes níveis de responsabilidade compartilhada pelo provedor e pelo locatário de nuvem.
+
+    IaaS Infraestrutura como Serviço
+        Esse modelo de serviço de nuvem é o mais próximo do gerenciamento de servidores físicos; um provedor de nuvem manterá o hardware atualizado, mas a manutenção do sistema operacional e a configuração da rede ficam a cargo do locatário da nuvem. Por exemplo, as máquinas virtuais do Azure são dispositivos de computação virtual totalmente operacionais em execução nos data centers da Microsoft. Uma vantagem desse modelo de serviço de nuvem é a implantação rápida de novos dispositivos de computação. A configuração de uma nova máquina virtual é consideravelmente mais rápida do que o processo de adquirir, instalar e configurar um servidor físico.
+
+    PaaS Plataforma como serviço
+        Esse modelo de serviço de nuvem é um ambiente de hospedagem gerenciado. O provedor de nuvem gerencia as máquinas virtuais e os recursos de rede e o locatário de nuvem implanta seus aplicativos no ambiente de hospedagem gerenciado. Por exemplo, os Serviços de Aplicativos do Azure fornecem um ambiente de hospedagem gerenciado em que os desenvolvedores podem carregar os aplicativos Web sem precisar se preocupar com os requisitos de software e hardware físico.
+
+    SaaS Software como serviço
+        Nesse modelo de serviço de nuvem, o provedor de nuvem gerencia todos os aspectos do ambiente de aplicativo, como as máquinas virtuais, os recursos de rede, o armazenamento de dados e os aplicativos. O locatário de nuvem só precisa fornecer seus dados para o aplicativo gerenciado pelo provedor de nuvem. Por exemplo, Microsoft Office 365 fornece uma versão totalmente funcional do Microsoft Office que é executada na nuvem. Você só precisa criar seu conteúdo e o Office 365 cuida de todo o resto.
+
+MÓDULO 3 - DESCREVER OS PRINCIPAIS COMPONENTES DA ARQUITETURA DO AZURE
+    Neste módulo, você examinará os diferentes conceitos, recursos e terminologia necessários para trabalhar com a arquitetura do Azure. Por exemplo, você aprenderá sobre as assinaturas e os grupos de gerenciamento do Azure, os grupos de recursos e o Azure Resource Manager, bem como as zonas de disponibilidade e as regiões do Azure.
+
+    
