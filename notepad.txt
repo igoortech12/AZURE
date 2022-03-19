@@ -1,5 +1,4 @@
-> PARTE 1 - DESCREVER OS PRINCIPAIS CONCEITOS DO AZURE
-    Princípios básicos do Microsoft Azure: descrever os principais conceitos do Azure
+> ROTERIO - Princípios básicos do Microsoft Azure: descrever os principais conceitos do Azure
    
 MÓDULO 1 - INTRODUÇÃO AOS CONCEITOS BÁSICOS DO AZURE
     Este módulo apresenta os conceitos básicos da computação em nuvem e do Azure e como começar a usar as assinaturas e as contas do Azure.
@@ -392,4 +391,36 @@ O que são modelos de serviço de nuvem?
 MÓDULO 3 - DESCREVER OS PRINCIPAIS COMPONENTES DA ARQUITETURA DO AZURE
     Neste módulo, você examinará os diferentes conceitos, recursos e terminologia necessários para trabalhar com a arquitetura do Azure. Por exemplo, você aprenderá sobre as assinaturas e os grupos de gerenciamento do Azure, os grupos de recursos e o Azure Resource Manager, bem como as zonas de disponibilidade e as regiões do Azure.
 
+Visão geral de assinaturas, grupos de gerenciamento e recursos do Azure
+    Recursos: 
+        recursos são instâncias de serviços que você cria, como máquinas virtuais, armazenamento ou bancos de dados SQL.
+    Grupos de recursos: 
+        os recursos são combinados em grupos de recursos, que atuam como um contêiner lógico no qual os recursos do Azure, como aplicativos Web, bancos de dados e contas de armazenamento, são implantados e gerenciados.
+    Assinaturas: 
+        uma assinatura agrupa contas de usuário e os recursos que foram criados por elas. Para cada assinatura, há limites ou cotas na quantidade de recursos que você pode criar e usar. As organizações podem usar assinaturas para gerenciar os custos e os recursos criados por usuários, equipes ou projetos.
+    Grupos de gerenciamento: 
+        esses grupos ajudam a gerenciar o acesso, a política e a conformidade para várias assinaturas. Todas as assinaturas em um grupo de gerenciamento herdam automaticamente as condições aplicadas ao grupo de gerenciamento.
+
+Regiões do Azure, zonas de disponibilidade e pares de regiões
+    Regiões do Azure
+        Uma região é uma área geográfica do planeta que contém pelo menos um, mas possivelmente vários data centers próximos e conectados a uma rede de baixa latência. 
+    Zonas de disponibilidade do Azure
+        Zonas de disponibilidade são datacenters separados fisicamente dentro de uma região do Azure. Cada zona de disponibilidade é composta de um ou mais datacenters equipados com energia, resfriamento e rede independentes.
+
+Recursos do Azure e Azure Resource Manager
+    Recurso: 
+        um item gerenciável disponibilizado por meio do Azure. VMs (máquinas virtuais), contas de armazenamento, aplicativos Web, bancos de dados e redes virtuais são exemplos de recursos.
+    Grupo de recursos: 
+        um contêiner que armazena os recursos relacionados de uma solução do Azure. O grupo de recursos inclui os recursos que você deseja gerenciar como um grupo. Você decide quais recursos pertencem a um grupo de recursos com base no que faz mais sentido para sua organização.
+
+    Azure Resource Manager
+        O Azure Resource Manager é p serviço de implantação e gerenciamento do Azure. Ele fornece uma camada de gerenciamento que lhe permite criar, atualizar e excluir recursos em sua conta do Azure. Você usa recursos de gerenciamento como controle de acesso, bloqueios e marcas para proteger e organizar seus recursos após a implantação.
     
+    Os benefícios de usar o Gerenciador de Recursos
+        Gerenciar sua infraestrutura por meio de modelos declarativos em vez de scripts. Um modelo do Resource Manager é um arquivo JSON que define o que você deseja implantar no Azure.
+        Implantar, gerenciar e monitorar todos os recursos da sua solução como um grupo em vez de tratá-los individualmente.
+        Reimplantar a solução durante o ciclo de vida de desenvolvimento e ter confiança de que os recursos serão implantados em um estado consistente.
+        Definir as dependências entre os recursos para que eles sejam implantados na ordem correta.
+        Aplicar o controle de acesso a todos os serviços porque o RBAC é integrado nativamente à plataforma de gerenciamento.
+        Aplicar marcas aos recursos para organizar de modo lógico todos os recursos em sua assinatura.
+        Esclarecer a cobrança da organização exibindo os custos de um grupo de recursos que compartilham a mesma marca.
